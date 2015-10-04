@@ -1,3 +1,18 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.party_name {
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 4px;	
+	margin-bottom: 0px;
+}
+
+.party_title {
+	color: #BDBDBD;
+	font-style: italic;
+}
+
+.party_description {
+	line-height: 2.0;
+}
