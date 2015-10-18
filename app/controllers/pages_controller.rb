@@ -11,6 +11,6 @@ class PagesController < ApplicationController
   def photos
   end
 
-  def registry
+  def gifts
   end
 end

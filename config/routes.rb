@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'story' => 'pages#story'
   get 'accommodations' => 'pages#accommodations'
   get 'photos' => 'pages#photos'
-  get 'registry' => 'pages#registry'
+  get 'gifts' => 'pages#gifts'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
