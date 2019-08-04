@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
   root :to => 'pages#home'
-  get '/wedding/story' => 'pages#wedding'
+  get 'story' => 'wedding#story'
   get 'accommodations' => 'pages#accommodations'
   get 'photos' => 'pages#photos'
   get 'gifts' => 'pages#gifts'
+
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
