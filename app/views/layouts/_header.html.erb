@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "WEDDING", root_path %></li> 
-        <li class="<%= 'active' if current_page?('/wedding/story') %>"><%= link_to "OUR STORY", '/wedding/story' %></li> 
+        <li class="<%= 'active' if current_page?('story_path') %>"><%= link_to "OUR STORY", story_path %></li> 
         <li class="<%= 'active' if current_page?(accommodations_path) %>"><%= link_to "ACCOMMODATIONS", accommodations_path %></li> 
         <li class="<%= 'active' if current_page?(photos_path) %>"><%= link_to "PHOTOS", photos_path %></li> 
         <li class="<%= 'active' if current_page?(gifts_path) %>"><%= link_to "GIFTS", gifts_path %></li> 
