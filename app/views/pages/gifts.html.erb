@@ -32,18 +32,20 @@ $(".nav a").on("click", function(){
 });
 </script>
 
-<div class="center" style="margin-top: 30px;">
-	<%= image_tag "gifts.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Registry" %>
-	<hr width="25%">
-	<br />
-	<div class="row">
-		<div class="col-md-3 col-md-offset-3">
-			<%= link_to (image_tag "bedbathbeyond.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Bed Bath & Beyond"), "http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=543212605" %>
-		</div>
-		<div class="col-md-3">
-			<%= link_to (image_tag "bloomingdales.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Bloomingdales"), "http://www.bloomingdales.com/registry/wedding/guest/?registryId=6568256" %>
-		</div>
-	</div>
+<div class="container">
+  <div class="center" style="margin-top: 30px;">
+  	<%= image_tag "gifts.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Registry" %>
+  	<hr width="25%">
+  	<br />
+  	<div class="row">
+  		<div class="col-md-3 col-md-offset-3">
+  			<%= link_to (image_tag "bedbathbeyond.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Bed Bath & Beyond"), "http://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?pwsToken=&eventType=Wedding&registryId=543212605" %>
+  		</div>
+  		<div class="col-md-3">
+  			<%= link_to (image_tag "bloomingdales.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Bloomingdales"), "http://www.bloomingdales.com/registry/wedding/guest/?registryId=6568256" %>
+  		</div>
+  	</div>
+  </div>
 </div>
 
 <div class="center" style="color: #BDBDBD; margin-bottom: 10px; margin-top: 40px;">

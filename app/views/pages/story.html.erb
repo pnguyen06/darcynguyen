@@ -32,38 +32,40 @@ $(".nav a").on("click", function(){
 });
 </script>
 
-<div class="center" style="margin-top: 30px;">
-	<%= image_tag "ourstory.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Our Story" %>
-	<hr width="25%">
-	<br />
-	<div class="row">
-		<div class="col-md-4" style="margin-bottom: 60px;">
-			<%= image_tag "brittany.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Brittany D'Arcy" %>
-			<h2 class="party_name">HER STORY</h2>
-			<br />
-			<p class="party_description">
-				Brittany D'Arcy was born in Champaign, IL and grew up in Highland Park, IL. She attended the University of Illinois at Urbana-Champaign where she studied Finance and Accountancy. After graduation, she joined an investment bank for two years before transitioning to private equity and impact investing.
-			</p>
-		</div>
-		<div class="col-md-4" style="margin-bottom: 60px;">
-			<%= image_tag "phil-spacer.png", :class => "img-responsive visible-md visible-lg", :style => "margin: 0 auto;", :title => "Phil Nguyen" %>
-			<%= image_tag "phil.png", :class => "img-responsive visible-xs visible-sm", :style => "margin: 0 auto;", :title => "Phil Nguyen" %>
-			<h2 class="party_name">HIS STORY</h2>
-			<br />
-			<p class="party_description">
-				Phil Nguyen was born in Evanston, IL and grew up in Buffalo Grove, IL. He attended the University of Illinois at Urbana-Champaign where he studied Finance and Accountancy. After graduation, he spent four years working in finance before joining a startup based in New York City. He also writes a daily newsletter called <%= link_to "The Daily Water Cooler", "http://www.dailywatercooler.com/", :style => "color: #333333; text-decoration: underline;"  %>.
-			</p>
-		</div>
-		<div class="col-md-4" style="margin-bottom: 60px;">
-			<%= image_tag "couch-spacer.png", :class => "img-responsive visible-md visible-lg", :style => "margin: 0 auto;", :title => "Cat Couch" %>
-			<%= image_tag "couch.png", :class => "img-responsive visible-xs visible-sm", :style => "margin: 0 auto;", :title => "Cat Couch" %>
-			<h2 class="party_name">OUR STORY</h2>
-			<br />
-			<p class="party_description">
-				We met during our junior year of college. We shared many finance and accounting courses and loved to study together. We were engaged in August 2015 and now we're about to get married!
-			</p>
-		</div>
-	
+<div class="container">
+	<div class="center" style="margin-top: 30px;">
+		<%= image_tag "ourstory.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Our Story" %>
+		<hr width="25%">
+		<br />
+		<div class="row">
+			<div class="col-md-4" style="margin-bottom: 60px;">
+				<%= image_tag "brittany.png", :class => "img-responsive", :style => "margin: 0 auto;", :title => "Brittany D'Arcy" %>
+				<h2 class="party_name">HER STORY</h2>
+				<br />
+				<p class="party_description">
+					Brittany D'Arcy was born in Champaign, IL and grew up in Highland Park, IL. She attended the University of Illinois at Urbana-Champaign where she studied Finance and Accountancy. After graduation, she joined an investment bank for two years before transitioning to private equity and impact investing.
+				</p>
+			</div>
+			<div class="col-md-4" style="margin-bottom: 60px;">
+				<%= image_tag "phil-spacer.png", :class => "img-responsive visible-md visible-lg", :style => "margin: 0 auto;", :title => "Phil Nguyen" %>
+				<%= image_tag "phil.png", :class => "img-responsive visible-xs visible-sm", :style => "margin: 0 auto;", :title => "Phil Nguyen" %>
+				<h2 class="party_name">HIS STORY</h2>
+				<br />
+				<p class="party_description">
+					Phil Nguyen was born in Evanston, IL and grew up in Buffalo Grove, IL. He attended the University of Illinois at Urbana-Champaign where he studied Finance and Accountancy. After graduation, he spent four years working in finance before joining a startup based in New York City. He also writes a daily newsletter called <%= link_to "The Daily Water Cooler", "http://www.dailywatercooler.com/", :style => "color: #333333; text-decoration: underline;"  %>.
+				</p>
+			</div>
+			<div class="col-md-4" style="margin-bottom: 60px;">
+				<%= image_tag "couch-spacer.png", :class => "img-responsive visible-md visible-lg", :style => "margin: 0 auto;", :title => "Cat Couch" %>
+				<%= image_tag "couch.png", :class => "img-responsive visible-xs visible-sm", :style => "margin: 0 auto;", :title => "Cat Couch" %>
+				<h2 class="party_name">OUR STORY</h2>
+				<br />
+				<p class="party_description">
+					We met during our junior year of college. We shared many finance and accounting courses and loved to study together. We were engaged in August 2015 and now we're about to get married!
+				</p>
+			</div>
+		
+	</div>
 </div>
 
 <div class="center" style="color: #BDBDBD; margin-bottom: 10px; margin-top: 40px;">
