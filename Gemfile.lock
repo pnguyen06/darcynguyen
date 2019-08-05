@@ -189,6 +189,7 @@ DEPENDENCIES
   pg
   rails (~> 5.2.1)
   rails_12factor
+  railties (= 5.2.3)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
