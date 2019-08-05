@@ -1,5 +1,7 @@
 @import url('//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600');
 @import url('//fonts.googleapis.com/css?family=Cabin:600');
+@import url('//fonts.googleapis.com/css?family=Asar');
+@import url('//fonts.googleapis.com/css?family=Montserrat');
 
 $navbar-default-bg: #ffffff;
 $font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -22,6 +24,16 @@ body {
 .cabin {
   font-family: 'Cabin', sans-serif;
   font-weight: 600;
+}
+
+.montserrat {
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.asar {
+  font-family: 'Asar';
+  font-weight: bold;
 }
 
 .jumbotron {
@@ -58,3 +70,8 @@ body {
 .navbar-nav > li {
 	font-size: 10px;
 }
+
+input::-webkit-input-placeholder { font-family: 'Asar' }
+input::-moz-placeholder { font-family: 'Asar' }
+input:-ms-input-placeholder { font-family: 'Asar' }
+input:-moz-placeholder { font-family: 'Asar' }
